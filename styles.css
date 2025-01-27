@@ -14,10 +14,18 @@ body {
 }
 
 /* Header styles */
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #753041ff; /* Dark background for contrast */
+    color: black;
+}
 header {
-    background: linear-gradient(90deg, #753041ff, #753041ff);
+    background: linear-line(50deg, #753041ff, #753041ff);
     padding: 20px 0;
-    color: white;
+    color: #333;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -27,7 +35,7 @@ header h1 {
 
 header nav ul {
     display: flex;
-    gap: 20px;
+    gap: 60px;
 }
 
 header nav ul li a {

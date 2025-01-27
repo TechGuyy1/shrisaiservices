@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="mr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,18 +8,20 @@
     
 </head>
 <body class="bg-gray-100 font-sans leading-normal tracking-normal">
-    <header class="bg-blue-600 text-white">
-        <div class="container mx-auto flex items-center justify-between py-4">
-            <h1 class="text-2xl font-bold">Shri Sai Services</h1>
-            <nav>
-                <ul class="flex space-x-4">
-                    <li><a href="index.html" class="hover:underline">Home</a></li>
-                    <li><a href="services.html" class="hover:underline">Services</a></li>
-                    <li><a href="about.html" class="hover:underline">About Us</a></li>
-                    <li><a href="contact.html" class="hover:underline">Contact</a></li>
-                </ul>
-            </nav>
+    <header class="main-header">
+        <div class="logo-container">
+            <img src="./logo.png" alt="Shri Sai Seervices" Shri Sai Services>
+            <!-- <h1 class="text-2xl font-bold">Shri Sai Services</h1> -->
         </div>
+        <nav class="nav">
+            <ul class="nav-links">
+                <li><a href="index.html" class="hover:underline">Home</a></li>
+                <li><a href="services.html" class="hover:underline">Services</a></li>
+                <li><a href="about.html" class="hover:underline">About Us</a></li>
+                <li><a href="contact.html" class="hover:underline">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="hamburger" onclick="toggleMenu()">☰</button>
     </header>
     <section class="bg-cover bg-center h-96 text-white hero-banner">
         <div class="container mx-auto h-full flex flex-col justify-center items-center text-center">
@@ -40,5 +42,6 @@
             <p>&copy; 2025 Shri Sai Services. All rights reserved.</p>
         </div>
     </footer>
+    <script src="script.ts"></script>
 </body>
 </html>
