@@ -19,11 +19,11 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: #753041ff; /* Dark background for contrast */
-    color: black;
+    background-color: #283747; /* Dark background for contrast */
+    color: white;
 }
 header {
-    background: linear-line(50deg, #753041ff, #753041ff);
+    background: linear-line(50deg, #283747, #283747);
     padding: 20px 0;
     color: #333;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -58,6 +58,10 @@ header nav ul li a:hover {
     justify-content: center;
     text-align: center;
 }
+section {
+    color: rgb(12, 11, 11);
+    background-color: white;
+}
 
 .hero-banner h2 {
     font-size: 2.5rem;
@@ -71,7 +75,7 @@ header nav ul li a:hover {
 
 .btn-primary {
     display: inline-block;
-    background-color: #753041ff;
+    background-color: #283747;
     color: white;
     padding: 10px 20px;
     font-size: 1rem;
@@ -83,7 +87,7 @@ header nav ul li a:hover {
 }
 
 .btn-primary:hover {
-    background-color: #753041ff;
+    background-color: #283747;
     transform: translateY(-3px);
 }
 
@@ -112,7 +116,7 @@ header nav ul li a:hover {
 }
 
 .input-field:focus {
-    border-color: #d8521d;
+    border-color: #283747;
     outline: none;
 }
 
@@ -126,7 +130,7 @@ header nav ul li a:hover {
 
 /* Footer */
 footer {
-    background: linear-gradient(90deg, #753041ff, #753041ff);
+    background: linear-gradient(90deg, #283747, #283747);
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -148,7 +152,7 @@ footer {
 }
 
 .nav-links a {
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 1.cm;
 }
@@ -168,7 +172,7 @@ footer {
     .nav-links {
         display: none;
         flex-direction: column;
-        background-color: beige;
+        background-color: #283747;
         position: absolute;
         top: 60px;
         right: 20px;
@@ -200,4 +204,12 @@ footer {
 
 .demo-container {
     text-align: left;
+}
+
+.anm-img{
+
+    height: 50px; /* Adjust height as needed */
+    width: auto;
+    animation: alternate-reverse;
+    animation-duration: initial;
 }
