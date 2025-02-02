@@ -5,6 +5,12 @@ body {
     background-color: white;
     color: white;
     margin: 0;
+    background-image: url(./team2.jpeg);
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.bg-cover{
+    background-image: url(./team2.jpeg);
 }
 
 .container {
@@ -63,7 +69,18 @@ section {
     color: rgb(12, 11, 11);
     background-color: white;
 }
+.homePageSec {
+    width: 100%;
+    padding: 0 7%;
+    display: table;
+    margin: 0;
+    max-width: 100%;
 
+    background-image: url(./team1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
 .hero-banner h2 {
     font-size: 2.5rem;
     margin-bottom: 15px;
