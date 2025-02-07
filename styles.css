@@ -105,8 +105,9 @@ section {
 }
 
 .btn-primary:hover {
-    background-color: #283747;
-    transform: translateY(-3px);
+    /* background-color: #283747; */
+    background-color: green;
+    transform: translateY(-4px);
 }
 
 /* Cards */
