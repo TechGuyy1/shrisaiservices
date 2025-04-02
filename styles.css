@@ -124,7 +124,7 @@ section {
 
 .btn-primary:hover {
     /* background-color: #283747; */
-    background-color: green;
+    background-color:green;
     transform: translateY(-4px);
 }
 
@@ -327,8 +327,8 @@ footer {
   }
 
     } 
-    img {
-        border: 1px solid #099232;
+   .sameSizeOutline {
+        border: 1px solid hwb(325 4% 44%);
         border-radius: 4px;
         padding: 5px;
         /* width: 150px; */
